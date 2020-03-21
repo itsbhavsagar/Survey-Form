@@ -1,1 +1,39 @@
+body {
+    background: linear-gradient(to bottom left, #00ffcc 0%, #ccccff 100%);
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
+label {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+form {
+    background-color: rgb(102, 179, 255);
+    padding: 40px 40px 40px 40px;
+}
+
+#button-area {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+input[type="checkbox"]:not(old)+label,
+input[type="radio"]:not(old)+label {
+    display: inline-block;
+    margin-left: -28px;
+    padding-left: 28px;
+}
